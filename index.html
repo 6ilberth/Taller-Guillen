@@ -3,11 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Taller Guillen</title>
+  <title>Taller Guillén</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hola, este es tmi futuro taller web</h1>
+  <header>
+    <h1>Taller Guillén</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#citas">Citas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Soluciones mecánicas con pasión y precisión</h2>
+    <p>Tu vehículo en las mejores manos</p>
+  </section>
+
+  <section id="servicios">
+    <h3>Servicios</h3>
+    <ul>
+      <li>Mantenimiento general</li>
+      <li>Diagnóstico computarizado</li>
+      <li>Cambio de aceite</li>
+      <li>Sistema de frenos</li>
+    </ul>
+  </section>
+
+  <section id="citas">
+    <h3>Agendá tu cita</h3>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="vehiculo">Vehículo:</label>
+      <input type="text" id="vehiculo" name="vehiculo" required>
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <button type="submit">Agendar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Taller Guillén. Todos los derechos reservados.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
+
